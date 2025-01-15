@@ -1,0 +1,41 @@
+/* TaskList.css */
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .priority {
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  .high {
+    color: red;
+  }
+  
+  .medium {
+    color: orange;
+  }
+  
+  .low {
+    color: green;
+  }
+  
+  .delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff1a1a;
+  }
+  
