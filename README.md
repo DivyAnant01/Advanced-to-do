@@ -1,44 +1,38 @@
-# Getting Started with Create React App
+# Task Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a simple task management web application built with React, Redux, and Material-UI. The application allows users to:
+- Log in with a username.
+- Add, view, and delete tasks.
+- Manage tasks with priority settings.
+- View real-time weather information using a weather API.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User Authentication**: Users can log in using their name and log out to clear the session.
+- **Task Management**: 
+  - Users can add tasks.
+  - Tasks can be marked as done or deleted.
+  - All tasks are displayed with the option to delete them individually.
+- **Weather Integration**: Fetches and displays the current weather using a weather API, providing live weather data for the user’s location.
 
-Runs the app in the development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.  
-You may also see any lint errors in the console.
+To run the project locally, follow these steps:
 
-### `npm run build`
+Clone the repository:
+   ```bash
+   git clone https://github.com/DivyAnant01/Advanced-to-do.git
 
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.  
-Your app is ready to be deployed!
+Navigate to the project directory:
+   cd   ADVANCED-TODO
 
-### `npm run eject`
+Install the dependencies:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start the development server:
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-## GitHub Profile
-
-For more information, check out my GitHub profile:  
-[DivyAnant01's GitHub](https://github.com/DivyAnant01)
+The app will be available at http://localhost:3000.
