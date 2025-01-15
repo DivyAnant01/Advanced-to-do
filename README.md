@@ -36,3 +36,12 @@ Start the development server:
 npm start
 
 The app will be available at http://localhost:3000.
+
+# login
+screenshots of project\1.png
+
+# task adding and other features
+screenshots of project\2.png
+
+# weather functionality
+screenshots of project\3.png
